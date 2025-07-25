@@ -1,5 +1,5 @@
 // ES6+ features: let/const, arrow functions, destructuring
-import { add, sub, mul, div } from './ExportImport.js';
+
 
 let x = 10;
 x=5;  //is okey x value changed
@@ -76,8 +76,10 @@ promise
 
   
 
-
+import { add, sub, mul, div } from './ExportImport.js';
 console.log("Addition:", add(5, 3)); // Addition: 8
 console.log("Subtraction:", sub(5, 3)); // Subtraction: 2       
 console.log("Multiplication:", mul(5, 3)); // Multiplication: 15
 console.log("Division:", div(5, 3)); // Division: 1.666
+
+

@@ -4,7 +4,7 @@
   "description": "",
   "main": "class1.js",
   "scripts": {
-    "start": "node class1.js",
+    "start": "node class2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
