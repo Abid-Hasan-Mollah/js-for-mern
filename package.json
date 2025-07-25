@@ -1,12 +1,16 @@
 {
   "name": "js-for-mern",
   "version": "1.0.0",
-  "description": "",
-  "main": "class1.js",
+  "main": "class3.js",
   "scripts": {
-    "start": "node class2.js",
+    "start": "node class3.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
