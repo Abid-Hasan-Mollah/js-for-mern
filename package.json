@@ -1,0 +1,12 @@
+{
+  "name": "js-for-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "class1.js",
+  "scripts": {
+    "start": "node class1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
