@@ -1,9 +1,10 @@
 // ES6+ features: let/const, arrow functions, destructuring
+import { add, sub, mul, div } from './ExportImport.js';
 
 let x = 10;
 x=5;  //is okey x value changed
 const y = 20;
-y=5 // is not okey y value not changed
+// y=5 // is not okey y value not changed
 
 if(true){
     console.log("This is true");
@@ -43,3 +44,40 @@ const userDetails = {
         }
     }}
 const { user: { name: userName, address: { city: userCity } } } = userDetails; // userName = "John", userCity = "New York"
+
+
+// async
+
+
+
+function dataload( callback){
+    setTimeout(() => {console.log("Data loaded")}, 1000);
+}
+dataload((data)=>{console.log(data)}); // This will log "Data loaded" after 2 seconds
+
+
+// Promises
+const promise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        const success = true; // Simulate success or failure
+        if (success) {
+            resolve("Data loaded successfully");
+        } else {
+            reject("Error loading data");
+        }
+    }, 2000);
+});
+
+promise
+  .then((data) => console.log(data))
+  .catch((err) => console.log(err))
+
+
+
+  
+
+
+console.log("Addition:", add(5, 3)); // Addition: 8
+console.log("Subtraction:", sub(5, 3)); // Subtraction: 2       
+console.log("Multiplication:", mul(5, 3)); // Multiplication: 15
+console.log("Division:", div(5, 3)); // Division: 1.666
