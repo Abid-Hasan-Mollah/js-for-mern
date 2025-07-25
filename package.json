@@ -1,9 +1,9 @@
 {
   "name": "js-for-mern",
   "version": "1.0.0",
-  "main": "class3.js",
+  "main": "class4.js",
   "scripts": {
-    "start": "node class3.js",
+    "start": "node class4.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
